@@ -12,29 +12,38 @@
       <div class="container">
         <header>
           <h1 class="hidden">1만 시간의 법칙</h1>
-          <img class="main-title" src="./image/title.png" alt="">
-          
+          <div class="main-title-wrap">
+            <img class="main-title" src="./image/title.png" alt="">
+            <img class="main-title-bg" src="./image/clock.png" alt="">
+          </div>
           <p class="sub-title">"연습은 어제의 당신보다 당신을 더 낫게 만든다."</p>
         </header>
 
         <main>
-          <section class="intro-box">
-            <img src="./image/rest-l.svg" alt="">
+          <section class="intro">
             <p>
             <span>1만 시간의 법칙</span>은<br>
             어떤 분야의 전문가가 되기 위해서는<br>
             최소한 1만 시간의 훈련이 필요하다는 법칙이다.
           </p>
-          <img src="./image/rest-r.svg" alt="">
+          <img class="intro-bg" src="./image/quotes.png" alt="">
+
           </section>
           <form action="">
-            <p>
-              나는 <input class="text-box" type="text" placeholder="예)프로그래밍"> 전문가가 될 것이다. 
-            </p>
-            <p>
-              그래서 앞으로 매일 하루에 <input class="text-box" type="text" placeholder="예)5시간"> 시간씩 훈련할 것이다.
-            </p>
-
+            <div class="goal-part part">
+              <p>나는</p>
+              <label for="goal" class="hidden">전문가가 될 직업 입력</label>
+              <input id="goal" class="text-box" type="text" placeholder="예)프로그래밍">
+              <p>전문가가 될 것이다.</p>
+            </div>
+            <div class="plan-part part">
+              <p>그래서 앞으로 매일 하루에</p>
+              <div class="line-break">
+                <label for="time" class="hidden">하루 훈련 시간 입력</label>
+                <input id="time" class="text-box" type="text" placeholder="예)5">
+              <p>시간씩 훈련할 것이다.</p>
+              </div>
+            </div>
             <div class="btn-wrap">
               <button>
               나는 며칠 동안 훈련을 해야 1만 시간이 될까?
@@ -65,10 +74,23 @@
         </footer> 
       </div>
 
-      <div class="modal">
+      <div class="pc-modal">
         <section>
           <p>
             <span>화이팅!!♥♥♥</span>
+            <br>
+            당신의 꿈을 응원합니다.
+          </p>
+          <img src="./image/licat.png" alt="">
+          <a class="exit-btn" href="">
+            종료하고 진짜 훈련하러 가기 GO!GO!
+          </a>
+        </section>
+      </div>
+      <div class="mobile-modal">
+        <section>
+          <p>
+            <span>화이팅!!</span>
             <br>
             당신의 꿈을 응원합니다.
           </p>
