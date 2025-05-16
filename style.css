@@ -60,7 +60,11 @@ button {
     color: var(--main-color);
     font-family: 'GmarketSansBold';
     font-weight: bold;
+    cursor: pointer;
   }
+a {
+  cursor: pointer;
+}
 body {
     width: auto;
     height: auto;
@@ -75,7 +79,7 @@ body {
 
 
 /* mobile start */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     button {
     font-size: 14px;
     border-radius: 12px;
@@ -307,7 +311,7 @@ body {
 /* --------------------------------------------------- */
 
 /* PC code start*/
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   body {
     font-size: 24px;
   }
