@@ -11,7 +11,7 @@
 
 ## 🖥️ 데모 화면
 
-> 👉 추후 GitHub Pages로 배포 후, 여기에 링크 추가 예정
+https://kth1257.github.io/10000hours-project/
 
 ![main screenshot](./image/title.png)
 
